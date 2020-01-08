@@ -1,4 +1,5 @@
 ﻿using Microsoft.Azure.Storage;
+using Microsoft.Azure.Storage.Queue;
 using System;
 
 namespace Venier.Azure
@@ -7,7 +8,8 @@ namespace Venier.Azure
     {
         static void Main(string[] args)
         {
-            var connectionString = CloudStorageAccount.Parse(StorageConnectionString);
+            var storageAccount = CloudStorageAccount.Parse(StorageConnectionString);
+            var queueClient = storageAccount.CreateCloudQueueClient();
         }
     }
 }
