@@ -18,6 +18,16 @@ namespace Venier.Azure
             CloudQueueMessage message = new CloudQueueMessage("Hello!");
             queue.AddMessage(message);
 
+            //Dequeue messages
+            /* First */
+            // PeekMessage -> peeks first message
+            //var queueMessage = queue.PeekMessage();
+            /* Second */
+            // GetMessage -> 30sec
+            var queueMessage = queue.GetMessage();
+
+
+
             Console.ReadLine();
         }
     }
