@@ -21,10 +21,11 @@ namespace Venier.Azure
             //Dequeue messages
             /* First */
             // PeekMessage -> peeks first message
-            //var queueMessage = queue.PeekMessage();
+            var queueMessage = queue.PeekMessage();
+
             /* Second */
             // GetMessage -> 30sec
-            var queueMessage = queue.GetMessage();
+            //var queueMessage = queue.GetMessage();
 
             queue.DeleteMessage(message);
 
