@@ -1,6 +1,7 @@
 ﻿using Microsoft.Azure.Storage;
 using Microsoft.Azure.Storage.Queue;
 using System;
+using System.Threading;
 
 namespace Venier.Azure
 {
@@ -17,17 +18,29 @@ namespace Venier.Azure
             //Create message in queue
             CloudQueueMessage message = new CloudQueueMessage("Hello!");
             queue.AddMessage(message);
+            Console.WriteLine("Il messaggio è stato aggiunto alla coda.");
 
             //Dequeue messages
             /* First */
             // PeekMessage -> peeks first message
-            var queueMessage = queue.PeekMessage();
+            //var queueMessage = queue.PeekMessage();
 
             /* Second */
-            // GetMessage -> 30sec
-            //var queueMessage = queue.GetMessage();
-
-            queue.DeleteMessage(message);
+            // GetMessage -> invisible for 30sec in queue
+            while(true)
+            { 
+                var queueMessage = queue.GetMessage();
+                if(queueMessage!=null)
+                { 
+                    Console.WriteLine(queueMessage.AsString);
+                    queue.DeleteMessage(queueMessage);
+                }
+                else 
+                {
+                    Console.WriteLine("Nessun messaggio nella coda.");
+                }
+                Thread.Sleep(2000);
+            }
 
             Console.ReadLine();
         }
