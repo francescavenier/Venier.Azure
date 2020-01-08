@@ -26,7 +26,7 @@ namespace Venier.Azure
             // GetMessage -> 30sec
             var queueMessage = queue.GetMessage();
 
-
+            queue.DeleteMessage(message);
 
             Console.ReadLine();
         }
