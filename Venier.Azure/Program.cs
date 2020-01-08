@@ -15,8 +15,10 @@ namespace Venier.Azure
             queue.CreateIfNotExists();
 
             //Create message in queue
-            var message = new CloudQueueMessage("Hello!");
+            CloudQueueMessage message = new CloudQueueMessage("Hello!");
             queue.AddMessage(message);
+
+            Console.ReadLine();
         }
     }
 }

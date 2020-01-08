@@ -2,3 +2,15 @@ C:\Users\PC\source\repos\Anno2 -Dottor\Azure\Venier.Azure\Venier.Azure\bin\Debug
 C:\Users\PC\source\repos\Anno2 -Dottor\Azure\Venier.Azure\Venier.Azure\obj\Debug\netcoreapp3.1\Venier.Azure.csprojAssemblyReference.cache
 C:\Users\PC\source\repos\Anno2 -Dottor\Azure\Venier.Azure\Venier.Azure\obj\Debug\netcoreapp3.1\Venier.Azure.AssemblyInfoInputs.cache
 C:\Users\PC\source\repos\Anno2 -Dottor\Azure\Venier.Azure\Venier.Azure\obj\Debug\netcoreapp3.1\Venier.Azure.AssemblyInfo.cs
+C:\Users\PC\source\repos\Anno2 -Dottor\Azure\Venier.Azure\Venier.Azure\bin\Debug\netcoreapp3.1\Venier.Azure.deps.json
+C:\Users\PC\source\repos\Anno2 -Dottor\Azure\Venier.Azure\Venier.Azure\bin\Debug\netcoreapp3.1\Venier.Azure.runtimeconfig.json
+C:\Users\PC\source\repos\Anno2 -Dottor\Azure\Venier.Azure\Venier.Azure\bin\Debug\netcoreapp3.1\Venier.Azure.runtimeconfig.dev.json
+C:\Users\PC\source\repos\Anno2 -Dottor\Azure\Venier.Azure\Venier.Azure\bin\Debug\netcoreapp3.1\Venier.Azure.dll
+C:\Users\PC\source\repos\Anno2 -Dottor\Azure\Venier.Azure\Venier.Azure\bin\Debug\netcoreapp3.1\Venier.Azure.pdb
+C:\Users\PC\source\repos\Anno2 -Dottor\Azure\Venier.Azure\Venier.Azure\bin\Debug\netcoreapp3.1\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\PC\source\repos\Anno2 -Dottor\Azure\Venier.Azure\Venier.Azure\bin\Debug\netcoreapp3.1\Microsoft.Azure.Storage.Common.dll
+C:\Users\PC\source\repos\Anno2 -Dottor\Azure\Venier.Azure\Venier.Azure\bin\Debug\netcoreapp3.1\Microsoft.Azure.Storage.Queue.dll
+C:\Users\PC\source\repos\Anno2 -Dottor\Azure\Venier.Azure\Venier.Azure\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\PC\source\repos\Anno2 -Dottor\Azure\Venier.Azure\Venier.Azure\obj\Debug\netcoreapp3.1\Venier.Azure.csproj.CopyComplete
+C:\Users\PC\source\repos\Anno2 -Dottor\Azure\Venier.Azure\Venier.Azure\obj\Debug\netcoreapp3.1\Venier.Azure.dll
+C:\Users\PC\source\repos\Anno2 -Dottor\Azure\Venier.Azure\Venier.Azure\obj\Debug\netcoreapp3.1\Venier.Azure.pdb
