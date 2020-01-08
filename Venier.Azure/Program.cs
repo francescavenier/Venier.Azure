@@ -10,6 +10,9 @@ namespace Venier.Azure
         {
             var storageAccount = CloudStorageAccount.Parse(StorageConnectionString);
             var queueClient = storageAccount.CreateCloudQueueClient();
+
+            CloudQueue queue = queueClient.GetQueueReference("myqueue");
+            queue.CreateIfNotExists();
         }
     }
 }
