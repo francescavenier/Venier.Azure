@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Azure.Storage;
+using System;
 
 namespace Venier.Azure
 {
@@ -6,7 +7,7 @@ namespace Venier.Azure
     {
         static void Main(string[] args)
         {
-
+            var connectionString = CloudStorageAccount.Parse(StorageConnectionString);
         }
     }
 }
